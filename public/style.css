@@ -1,0 +1,147 @@
+/*
+ * Hi! I'm your stylesheet! I've got some sensible defaults here,
+ * but feel free to change me to your heart's content!
+ */
+
+/* * {
+  box-sizing: border-box;
+  font-family: arial, sans-serif;
+}
+
+body {
+  background: linear-gradient(#ffffff, #c0c0c0);
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+} */
+
+/* nav {
+  align-items: center;
+  background-color: #333333;
+  color: #c0c0c0;
+  display: flex;
+  height: 80px;
+  padding: 10px;
+}*/
+
+body {
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+}
+
+#main{
+  display: flex;
+  height: 100%;
+} 
+
+.main-container{
+  width:100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.main{
+  width: 100%;
+  flex: 1;
+}
+
+.nav {
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid black;
+  background-color: white;
+  margin-bottom: 30px;
+  color: white;
+  height: 15vh;
+  background-size: 1300px;
+  background-position-y: -10px;
+  background-position-x: 10%;
+  margin: 10px;
+}
+
+
+.nav > a {
+  padding: 100px;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
+.container{
+  display:flex;
+  align-items:center;
+  flex-direction: column;
+}
+
+.home{
+  background-image: url("./home-bkgrnd.jpg");
+  background-size: 100% 100%;
+  height:100%;
+}
+
+.campuses {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.campus-item{
+  border: 1px solid;
+  border-radius: 10px;
+  margin:10px;
+}
+
+.campus-item-inner{
+  padding: 5px;
+  text-align: center;
+}
+
+.campus-img{
+  height: 200px;
+}
+
+table {  
+  color: #333; 
+  font-family: Helvetica, Arial, sans-serif; 
+  width: 640px; 
+  border-collapse: 
+  collapse; border-spacing: 0; 
+}
+
+td, th { border: 1px solid #CCC; height: 30px; } 
+
+th {  
+  background: #F3F3F3; 
+  font-weight: bold; 
+}
+
+td {  
+  background: #FAFAFA; 
+  text-align: center; 
+}
+
+.container > a {
+  background-color: rgb(51, 94, 203);
+  color: white;
+  padding: 1em 1.5em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.container > a:hover {
+  background-color: #555;
+}
+
+.container > a:active {
+  background-color: black;
+}
